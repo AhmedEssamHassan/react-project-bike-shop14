@@ -41,7 +41,7 @@ const HeaderContainer = styled.div`
 `;
 
 const VideoContainer = styled.div`
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   overflow: hidden;
   background: #0a0a23;
@@ -49,9 +49,9 @@ const VideoContainer = styled.div`
 
 const Video = styled.video`
   position: fixed !important;
-  width: 100vw;
+  width: 100%;
   height: auto;
-  top: -200px;
+  top: -50px;
 `;
 
 const HeaderTitle = styled.div`

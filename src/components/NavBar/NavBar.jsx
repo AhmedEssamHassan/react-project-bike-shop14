@@ -10,7 +10,10 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <Nav onScroll={this.handleScroll} className="container-fluid bg-dark">
+      <Nav
+        onScroll={this.handleScroll}
+        className="container-fluid bg-dark border-top"
+      >
         <div className="row h-100 ">
           <Logo className="col-md-2 col-sm-12 d-flex align-items-center justify-content-end">
             <h1>logo</h1>
@@ -55,7 +58,7 @@ class NavBar extends React.Component {
 export default NavBar;
 
 const Nav = styled.nav`
-  height: auto;
+  height: 20vh;
   z-index: 5;
 `;
 

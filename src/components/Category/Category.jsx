@@ -7,8 +7,8 @@ class Category extends React.Component {
   render() {
     const { name, picture, icon, path } = this.props.catg;
     return (
-      <CategoryWrapper className="col-md-6 col-lg-4 my-3 px-3">
-        <CatgContainer className="catgContainer">
+      <CategoryWrapper className="col-md-6 col-lg-4 my-5 px-3">
+        <CatgContainer className="catgContainer rounded">
           <CatgImg src={picture} alt="" />
           <CatgTitile className="container-fluid catgTitile py-3 d-flex align-items-center justify-content-center">
             <div className="row d-flex justify-content-center">
@@ -27,6 +27,9 @@ class Category extends React.Component {
             </div>
           </CatgTitile>
         </CatgContainer>
+        <Catgtext className="text-center font-weight-bold text-capitalize p-3 ">
+          {name}
+        </Catgtext>
       </CategoryWrapper>
     );
   }
@@ -43,6 +46,9 @@ const CatgContainer = styled.div`
   height: 100%;
   position: relative;
   overflow: hidden;
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
 `;
 
 const CatgImg = styled.img`
@@ -57,7 +63,7 @@ const CatgTitile = styled.div`
 `;
 
 const Text = styled.h3`
-  font-size: 2.5rem;
+  font-size: 1.3rem;
   font-weight: 800;
 `;
 
@@ -68,4 +74,13 @@ const Button = styled.button`
   outline: none;
   border: none;
   width: 100%;
+`;
+
+const Catgtext = styled.p`
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  margin-bottom: 30px;
+  color: black;
+  background: #8fb2db;
 `;

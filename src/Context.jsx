@@ -11,6 +11,7 @@ import {
   mirrorComponent,
   lightsComponent,
   gearHangerComponent,
+  clothesComponent,
 } from "./data";
 const ProductContext = React.createContext();
 
@@ -26,6 +27,7 @@ export class ProductProvider extends React.Component {
     mirrors: [],
     lights: [],
     gearHangers: [],
+    clothes: [],
   };
 
   componentDidMount() {
@@ -39,7 +41,8 @@ export class ProductProvider extends React.Component {
     this.setMudguard();
     this.setMirrors();
     this.setLights();
-    this.setProducts(gearHangerComponent, this.state.gearHangers);
+    this.setProducts();
+    this.setClothesComponent();
   }
 
   setCategories = () => {
@@ -134,8 +137,16 @@ export class ProductProvider extends React.Component {
     this.setState({ gearHangers });
   };
 
+  setClothesComponent = () => {
+    let clothes = [];
+    clothesComponent.map((item) => {
+      const singleItem = { ...item };
+      clothes = [...clothes, singleItem];
+    });
+    this.setState({ clothes });
+  };
+
   render() {
-    console.log(this.state.accessories);
     return (
       <ProductContext.Provider value={{ ...this.state }}>
         {this.props.children}
