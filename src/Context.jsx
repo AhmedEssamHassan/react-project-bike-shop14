@@ -12,6 +12,7 @@ import {
   lightsComponent,
   gearHangerComponent,
   clothesComponent,
+  shortSleevedComponent,
 } from "./data";
 const ProductContext = React.createContext();
 
@@ -28,6 +29,7 @@ export class ProductProvider extends React.Component {
     lights: [],
     gearHangers: [],
     clothes: [],
+    shortSleeved: [],
   };
 
   componentDidMount() {
@@ -43,6 +45,7 @@ export class ProductProvider extends React.Component {
     this.setLights();
     this.setProducts();
     this.setClothesComponent();
+    this.setShortSleevedComponent();
   }
 
   setCategories = () => {
@@ -144,6 +147,15 @@ export class ProductProvider extends React.Component {
       clothes = [...clothes, singleItem];
     });
     this.setState({ clothes });
+  };
+
+  setShortSleevedComponent = () => {
+    let shortSleeved = [];
+    shortSleevedComponent.map((item) => {
+      const singleItem = { ...item };
+      shortSleeved = [...shortSleeved, singleItem];
+    });
+    this.setState({ shortSleeved });
   };
 
   render() {

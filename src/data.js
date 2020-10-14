@@ -1297,3 +1297,119 @@ export const clothesComponent = [
     path: "/BodyArmour",
   },
 ];
+
+export const shortSleevedComponent = [
+  {
+    id: 1,
+    type: "Merlin Wear Short Sleeve Cycling Jersey",
+    img: "./video-and-img/ShortSleeved1.jpg",
+    price: 14.99,
+    descTitle: "Merlin Wear Short Sleeve Cycling Jersey",
+    desc: `The Merlin Wear Core short sleeve jersey is a great entry-level cycling jersey with a slightly more relaxed cut than some super-sleek cycling jerseys. Made from high-performing 100% polyester micro fabric the Core jersey is a comfortable, hygienic that’s ideal for short rides and your daily commute to and from work.`,
+  },
+  {
+    id: 2,
+    type: "Castelli Entrata V Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved2.jpg",
+    price: 45,
+    descTitle: "Castelli Entrata V Short Sleeve Cycling Jersey - SS20",
+    desc: `The Castelli Entrata V Jersey is an all-round performance jersey that prioritises moisture management and comfort. It will prove a fast favourite for anyone going on those weekend club runs or epic sportives.
+ 
+    The jersey borrows pro racing technology from Castelli's top-of-the-line products but is tailored to not be so compressive or restrictive. AirMesh fabric is used through the side panels, shoulders, and sleeves incorporating plenty of stretch into the Entrata V’s design for all-day comfort. `,
+  },
+  {
+    id: 3,
+    type: "GSG Fedaia Short Sleeve Cycling Jersey",
+    img: "./video-and-img/ShortSleeved3.jpg",
+    price: 47.5,
+    descTitle: "GSG Fedaia Short Sleeve Cycling Jersey",
+    desc: `The GSG Fedaia is constructed with a breathable bielastic fabric on the front, mesh on the ﬂanks, perforated fabric on the back, the Fedaia features raw cut sleeve ends, raw cut elastic band on front end of jersey and reﬂective elastic band on the back.`,
+  },
+  {
+    id: 4,
+    type: "Castelli Climbers 3.0 Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved4.jpg",
+    price: 81,
+    descTitle: "Castelli Climbers 3.0 Short Sleeve Cycling Jersey - SS20",
+    desc: `The Castelli Climber’s Jersey is for all out performance. Castelli puts the jersey at its highest rating for race fit, breathability, and being lightweight, making it ideal for hard days out in hot and humid conditions.`,
+  },
+  {
+    id: 5,
+    type: "Castelli Giro 103 Competizione Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved5.jpg",
+    price: 73.99,
+    descTitle:
+      "Castelli Giro 103 Competizione Short Sleeve Cycling Jersey - SS20",
+    desc: `This official replica of the Giro d'Italia's 103 Maglia Rosa features the same gorgeous new print as the Giro 103 Race Jersey as well as top performance features and a slightly more relaxed fit for all-day comfort. Part of Castelli's Giro d'Italia 2020 collection, the Competizione Jersey is the official fan jersey of this year's race.
+ 
+    For the first time, Castelli has used 100% recycled yarns on this year's Competizione Jersey, certified in accordance with the Global Recycled Standard. This provides peace of mind when it comes to sustainability without compromising on fabric technology and performance.`,
+  },
+  {
+    id: 6,
+    type: "SIX2 Bike 3 Luxury Short Sleeve Cycling Jersey",
+    img: "./video-and-img/ShortSleeved6.jpg",
+    price: 39.5,
+    descTitle: "SIX2 Bike 3 Luxury Short Sleeve Cycling Jersey",
+    desc: `The technology of our underwear even on outerwear garments: owing to the properties of Carbon Underwear®, the skin is always dry and thermoregulation is ensured. The skin is free to breathe, without layered fabric that suffocates it, and this guarantees effective performance and unmatched comfort. This short-sleeve jersey can be worn both in direct contact with the skin or on top of an underwear product.`,
+  },
+  {
+    id: 7,
+    type: "Castelli Trofeo Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved7.jpg",
+    price: 70,
+    descTitle: "Castelli Trofeo Short Sleeve Cycling Jersey - SS20",
+    desc: `Built around Castelli’s Squadra base model, the Trofeo jersey is a performance-orientated, all-round cut for everything from weekend crits to grand fondos.
+ 
+    The main body is made from Castelli’s ProSecco Micromesh fabric for its high wicking and lightness. The sleeves are Velocity Rev2 fabric creating a close-to-body fit and raw cut sleeve endings reduce seams and increase aerodynamics.
+     
+    The covered YKK zip and 3 rear pockets faithfully reproduce the details seen in the pro peloton, while the drop tail keeps pockets in place.`,
+  },
+  {
+    id: 8,
+    type: "Castelli Hors Categorie Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved8.jpg",
+    price: 55,
+    descTitle: "Castelli Hors Categorie Short Sleeve Cycling Jersey - SS20",
+    desc: `The Castelli Hors Categorie Jersey takes its name from the Tour stages that are deemed harder than Category 1 climbs and are considered “beyond categorisation”. Whether you’re scaling the Galibier or putting the miles in closer to home the Hors Categorie Jersey is for the hardest and longest days in the saddle.
+ 
+    Made from Velocity Rev3 fabric, the Hors Categorie Jersey is aero and stretchy. Based off the material used for Castelli’s top-of-the-line Aero Race Jersey, the fabric is a polyester blend that has around 20% more body for all round performance and to help support the pockets.
+     
+    With the Hors Categorie Jersey, Castelli has prioritised practicality and utility over being aerodynamic. This allows the pockets to be slightly larger than Castelli’s pro race jerseys, allowing you to stuff them with enough supplies to keep you riding all day. A zipped key pocket is also on the rear of the jersey allowing you to stow valuables.`,
+  },
+  {
+    id: 9,
+    type: "Castelli Aero Race 6.0 Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved9.jpg",
+    price: 67.99,
+    descTitle: "Castelli Aero Race 6.0 Short Sleeve Cycling Jersey - SS20",
+    desc: `The Castelli Hors Categorie Jersey takes its name from the Tour stages that are deemed harder than Category 1 climbs and are considered “beyond categorisation”. Whether you’re scaling the Galibier or putting the miles in closer to home the Hors Categorie Jersey is for the hardest and longest days in the saddle.`,
+  },
+  {
+    id: 10,
+    type: "Funkier Stream Active Short Sleeve Cycling Jersey",
+    img: "./video-and-img/ShortSleeved10.jpg",
+    price: 20.99,
+    descTitle: "Funkier Stream Active Short Sleeve Cycling Jersey",
+    desc: `This Funkier Cycling Jersey certainly will add some funk to your ride! Available in a range of colours, you’re sure to stand out from the crowd.  This nifty summer jersey comes with Quick Dry Active protection and provides 50+ protection from UVR.`,
+  },
+  {
+    id: 11,
+    type: "Castelli Passo Short Sleeve Cycling Jersey - SS20",
+    img: "./video-and-img/ShortSleeved11.jpg",
+    price: 76.5,
+    descTitle: "Castelli Passo Short Sleeve Cycling Jersey - SS20",
+    desc: `The Castelli Hors Categorie Jersey takes its name from the Tour stages that are deemed harder than Category 1 climbs and are considered “beyond categorisation”. Whether you’re scaling the Galibier or putting the miles in closer to home the Hors Categorie Jersey is for the hardest and longest days in the saddle.
+ 
+    Made from Velocity Rev3 fabric, the Hors Categorie Jersey is aero and stretchy. Based off the material used for Castelli’s top-of-the-line Aero Race Jersey, the fabric is a polyester blend that has around 20% more body for all round performance and to help support the pockets.
+     
+    With the Hors Categorie Jersey, Castelli has prioritised practicality and utility over being aerodynamic. This allows the pockets to be slightly larger than Castelli’s pro race jerseys, allowing you to stuff them with enough supplies to keep you riding all day. A zipped key pocket is also on the rear of the jersey allowing you to stow valuables.`,
+  },
+  {
+    id: 12,
+    type: "Funkier F-Ride Active Short Sleeve Cycling Jersey",
+    img: "./video-and-img/ShortSleeved12.jpg",
+    price: 28.99,
+    descTitle: "Funkier F-Ride Active Short Sleeve Cycling Jersey",
+    desc: `Funkier have updated the F-Ride jersey with a sleeker form fitted cut and the option of sublimated front/back panel graphics to help you stand out in your local group.`,
+  },
+];
