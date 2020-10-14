@@ -13,6 +13,7 @@ import {
   gearHangerComponent,
   clothesComponent,
   shortSleevedComponent,
+  longSleevedComponent,
 } from "./data";
 const ProductContext = React.createContext();
 
@@ -30,6 +31,7 @@ export class ProductProvider extends React.Component {
     gearHangers: [],
     clothes: [],
     shortSleeved: [],
+    longSleeved: [],
   };
 
   componentDidMount() {
@@ -46,6 +48,7 @@ export class ProductProvider extends React.Component {
     this.setProducts();
     this.setClothesComponent();
     this.setShortSleevedComponent();
+    this.setLongSleevedComponent();
   }
 
   setCategories = () => {
@@ -156,6 +159,15 @@ export class ProductProvider extends React.Component {
       shortSleeved = [...shortSleeved, singleItem];
     });
     this.setState({ shortSleeved });
+  };
+
+  setLongSleevedComponent = () => {
+    let longSleeved = [];
+    longSleevedComponent.map((item) => {
+      const singleItem = { ...item };
+      longSleeved = [...longSleeved, singleItem];
+    });
+    this.setState({ longSleeved });
   };
 
   render() {
