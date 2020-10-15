@@ -27,13 +27,23 @@ const ProductItem = (props) => {
           </IconWrapper>
           <ProductConsumer>
             {(val) => {
-              const { setDetailId } = val;
+              const {
+                setDetailsImg,
+                setDetailsType,
+                setDetailsDesc,
+                setDetailsPrice,
+              } = val;
               return (
                 <div className="d-flex flex-column mt-5 align-items-center justify-content-around w-100">
                   <Link
                     to="/details"
                     className=" mb-4"
-                    onClick={() => setDetailId(id)}
+                    onClick={() => {
+                      setDetailsType(id);
+                      setDetailsImg(id);
+                      setDetailsDesc(id);
+                      setDetailsPrice(id);
+                    }}
                   >
                     <Button className="px-3 py-2 border rounded text-light d-flex justify-content-center align-items-center">
                       <p className="my-0 mr-2 text-capitalize font-weight-bold">
