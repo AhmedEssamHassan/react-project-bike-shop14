@@ -14,6 +14,8 @@ import {
   clothesComponent,
   shortSleevedComponent,
   longSleevedComponent,
+  bibShortsComponents,
+  shortsComponents,
 } from "./data";
 const ProductContext = React.createContext();
 
@@ -32,6 +34,8 @@ export class ProductProvider extends React.Component {
     clothes: [],
     shortSleeved: [],
     longSleeved: [],
+    bibShorts: [],
+    shorts: [],
   };
 
   componentDidMount() {
@@ -49,6 +53,8 @@ export class ProductProvider extends React.Component {
     this.setClothesComponent();
     this.setShortSleevedComponent();
     this.setLongSleevedComponent();
+    this.setBibShortsComponents();
+    this.setShortsComponents();
   }
 
   setCategories = () => {
@@ -168,6 +174,23 @@ export class ProductProvider extends React.Component {
       longSleeved = [...longSleeved, singleItem];
     });
     this.setState({ longSleeved });
+  };
+  setBibShortsComponents = () => {
+    let bibShorts = [];
+    bibShortsComponents.map((item) => {
+      const singleItem = { ...item };
+      bibShorts = [...bibShorts, singleItem];
+    });
+    this.setState({ bibShorts });
+  };
+
+  setShortsComponents = () => {
+    let shorts = [];
+    shortsComponents.map((item) => {
+      const singleItem = { ...item };
+      shorts = [...shorts, singleItem];
+    });
+    this.setState({ shorts });
   };
 
   render() {

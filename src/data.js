@@ -1571,3 +1571,269 @@ export const longSleevedComponent = [
     2 back pockets & middle waterproof pocket`,
   },
 ];
+
+export const bibShortsComponents = [
+  {
+    id: 1,
+    type: "Castelli Free Aero Race 4 Bib Shorts - SS20",
+    img: "./video-and-img/shorts1.jpg",
+    price: 82.5,
+    descTitle: "Castelli Free Aero Race 4 Bib Shorts - SS20",
+    desc: `The Free Aero Race 4 Bibshort is Castelli's top race short, which also means that it’s insanely comfortable. The original Free Aero Race Bibshort was first introduced over a decade ago and has logged literally millions of kilometers under the backsides of Castelli's pro riders and has been the best-selling short in the Castelli retail collection.
+ 
+    Over this time the short has undergone numerous updates and improvements in the never-ending quest to create the best short possible. While the basic concept of a minimalist workhorse pro-level comfortable race short remains, every single fabric, component, stitch and construction method has been updated and improved over time.
+     
+    This fourth generation of the short features the updated Progetto X² Air Seamless seat pad. This pad separates a soft, stretchy skin care layer that moves with your body from a generously padded cushioning layer that replicates the form of your saddle. Eight-hour rides are no problem. Of course the fabrics are premium, made to our specifications by Italy’s best fabric suppliers. The Forza fabric on the inner leg features 38% Lycra® content for perfect fit, while the Vortex fabric on the side panels is dimpled for aerodynamics. And it’s held in place by the latest iteration of our seamless flat Giro leg gripper.`,
+  },
+  {
+    id: 2,
+    type: "Nalini Sport Cycling Bib Shorts",
+    img: "./video-and-img/shorts2.jpg",
+    price: 17.5,
+    descTitle: "Nalini Sport Cycling Bib Shorts",
+    desc: `Lycra super-stretch fabric
+    Lightweight and quick drying
+    Quality leg grippers
+    Italian design `,
+  },
+  {
+    id: 3,
+    type: "Castelli Unlimited Bib Shorts - SS20",
+    img: "./video-and-img/shorts3.jpg",
+    price: 67.5,
+    descTitle: "Castelli Unlimited Bib Shorts - SS20",
+    desc: `Castelli made this short to meet there high standards for comfort and performance in a cycling short while adding a few extra features that come in handy for riding on any surface. You can expect to find Castelli's normal exceptional fit as well as the KISS Air² seat pad, which provides generous anatomically placed padding with an exceptionally soft top layer. What makes this short special is the extremely durable Unlimited Lycra® fabric. It has higher abrasion resistance and tear resistance while not compromising on stretch, moisture management or comfort. 
+ 
+    In addition, Castelli have used double-layer side panels for the old track rider's trick of fabric-sliding-on-fabric should you fall. This short isn't really meant to be indestructible, but it significantly increases the chances that sliding out on gravel will mean you need to just brush yourself off rather than having to buy a new pair of shorts. That second layer on the side panel also makes for convenient side pockets, with a flap over the top to prevent the contents from falling out.
+     
+    For added convenience while riding on or off-road, you have two mesh pockets on the lower back that compress gear next to your body to keep it from bouncing around, This short adds durability and storage without compromising comfort for unlimited amounts of fun.`,
+  },
+  {
+    id: 4,
+    type: "Castelli Competizione Bib Shorts - SS20",
+    img: "./video-and-img/shorts4.jpg",
+    price: 90,
+    descTitle: "Castelli Competizione Bib Shorts - SS20",
+    desc: `KISS Air² seat pad for all-day comfort
+    Affinity Pro Lycra® fabric on inside of leg for outstanding stretch and rebound
+    Vortex BLC textured fabric on legs for better aerodynamics
+    GIRO4 leg gripper with raw edge for comfort and silicone stripes for grip
+    Flat-lock stitchingReflective detailing on back
+    Mesh straps for comfort and breathability
+    Weight: 172g`,
+  },
+  {
+    id: 5,
+    type: "SIX2 SLP Luxury Bib Shorts",
+    img: "./video-and-img/shorts5.jpg",
+    price: 44.5,
+    descTitle: "SIX2 SLP Luxury Bib Shorts",
+    desc: `Short leg bib shorts with top of the line butt-patch for rides lasting up to 8 hours. The properties of the Carbon Activewear® weave combined with the comfort of an anatomic seamless product without seams on the sides and back generate a one of a kind bib short. Like not wearing it at all: the garment hugs the body perfectly without pressure points. Owing to the excellent breathability and thermoregulation qualities, the skin will always stay fresh and dry to enjoy ultimate comfort in all conditions`,
+  },
+  {
+    id: 6,
+    type: "GSG Pordoi Cycling Bib Shorts",
+    img: "./video-and-img/shorts6.jpg",
+    price: 42.95,
+    descTitle: "GSG Pordoi Cycling Bib Shorts",
+    desc: `Anatomic bibshorts in lycra fabric with front printable braces and polypropylene mesh fabric on back
+    End of legs with printed silicon band
+    Flat seams
+    Polypropylene mesh on the back for maximum perspiration
+    Soft elastic for braces
+    Ikon Pad
+    Weight: 170g`,
+  },
+  {
+    id: 7,
+    type: "Castelli Entrata Bib Shorts - SS20",
+    img: "./video-and-img/shorts7.jpg",
+    price: 76,
+    descTitle: "Castelli Entrata Bib Shorts - SS20",
+    desc: `KISS Air² seat pad for all-day comfort
+    Pro Dry matte Lycra® for good compression and moisture management
+    8-panel construction for perfect fit
+    Rear reflective panels on lower leg
+    Giro³ engineered flat leg band
+    Mesh bib straps for comfort and breathability
+    Weight: 175g`,
+  },
+  {
+    id: 8,
+    type: "SIX2 SLP Stripes Bib Shorts",
+    img: "./video-and-img/shorts8.jpg",
+    price: 41,
+    descTitle: "SIX2 SLP Stripes Bib Shorts",
+    desc: `The properties of the Carbon Activewear® weave combined with the comfort of an anatomic seamless product without seams on the sides and back generate a one of a kind bib tight. Like not wearing it at all: the garment hugs the body perfectly without pressure points. Owing to the excellent breathability and thermoregulation qualities, the skin will always stay fresh and dry to enjoy ultimate comfort in all conditions. Sporty and fashionable Stripes design.`,
+  },
+  {
+    id: 9,
+    type: "Funkier Apex-Gel Active 17 Panel Gel Bib Shorts",
+    img: "./video-and-img/shorts9.jpg",
+    price: 49.5,
+    descTitle: "Funkier Apex-Gel Active 17 Panel Gel Bib Shorts",
+    desc: `Designed to keep everything in place without compressing, the Apex Pro bib fits just right, offering support without constricting; making it comfortable for all body types. Its soft stretch silicone leg gripper gives a clean edge finish and keeps the leg in place, while the redesigned pad is perforated with gel solution, multi-level thickness foam, and four way stretch fabric for high impact absorption, flexibility and reduced chafing. A supreme choice for the avid cyclist looking for the ultimate combination of comfort, fit and performance. `,
+  },
+  {
+    id: 10,
+    type: "MEM Active Cycling Bib Shorts",
+    img: "./video-and-img/shorts10.jpg",
+    price: 26.5,
+    descTitle: "MEM Active Cycling Bib Shorts",
+    desc: `Thunderbike Power High-Tech Fabric
+    Comfort Fit
+    Cool-Max Pad
+    Pefect 2-3 hour summer shorts`,
+  },
+  {
+    id: 11,
+    type: "Funkier Force Active 17 Bib Shorts",
+    img: "./video-and-img/shorts11.jpg",
+    price: 44.99,
+    descTitle: "Funkier Force Active 17 Bib Shorts",
+    desc: `80% polyamide, 20% spandex
+    Weight: 210g
+    Lycra fabric technology`,
+  },
+  {
+    id: 12,
+    type: "Castelli Endurance 2 Bib Shorts – SS20",
+    img: "./video-and-img/shorts12.jpg",
+    price: 100,
+    descTitle: "Castelli Endurance 2 Bib Shorts – SS20",
+    desc: `The Castelli Endurance 2 bib shorts feature a classic cut with premium fabrics and seat pad.`,
+  },
+];
+
+export const shortsComponents = [
+  {
+    id: 1,
+    type: "Funkier F-77 7 Panel Cycling Shorts",
+    img: "./video-and-img/shorts1.jpg",
+    price: 82.5,
+    descTitle: "Funkier F-77 7 Panel Cycling Shorts",
+    desc: `The Free Aero Race 4 Bibshort is Castelli's top race short, which also means that it’s insanely comfortable. The original Free Aero Race Bibshort was first introduced over a decade ago and has logged literally millions of kilometers under the backsides of Castelli's pro riders and has been the best-selling short in the Castelli retail collection.
+ 
+    Over this time the short has undergone numerous updates and improvements in the never-ending quest to create the best short possible. While the basic concept of a minimalist workhorse pro-level comfortable race short remains, every single fabric, component, stitch and construction method has been updated and improved over time.
+     
+    This fourth generation of the short features the updated Progetto X² Air Seamless seat pad. This pad separates a soft, stretchy skin care layer that moves with your body from a generously padded cushioning layer that replicates the form of your saddle. Eight-hour rides are no problem. Of course the fabrics are premium, made to our specifications by Italy’s best fabric suppliers. The Forza fabric on the inner leg features 38% Lycra® content for perfect fit, while the Vortex fabric on the side panels is dimpled for aerodynamics. And it’s held in place by the latest iteration of our seamless flat Giro leg gripper.`,
+  },
+  {
+    id: 2,
+    type: "Altura Progel 2 Cycling Undershorts",
+    img: "./video-and-img/shorts2.jpg",
+    price: 17.5,
+    descTitle: "Altura Progel 2 Cycling Undershorts",
+    desc: `Lycra super-stretch fabric
+    Lightweight and quick drying
+    Quality leg grippers
+    Italian design `,
+  },
+  {
+    id: 3,
+    type: "Funkier F-10 10 Panel Cycling Shorts",
+    img: "./video-and-img/shorts3.jpg",
+    price: 67.5,
+    descTitle: "Funkier F-10 10 Panel Cycling Shorts",
+    desc: `Castelli made this short to meet there high standards for comfort and performance in a cycling short while adding a few extra features that come in handy for riding on any surface. You can expect to find Castelli's normal exceptional fit as well as the KISS Air² seat pad, which provides generous anatomically placed padding with an exceptionally soft top layer. What makes this short special is the extremely durable Unlimited Lycra® fabric. It has higher abrasion resistance and tear resistance while not compromising on stretch, moisture management or comfort. 
+ 
+    In addition, Castelli have used double-layer side panels for the old track rider's trick of fabric-sliding-on-fabric should you fall. This short isn't really meant to be indestructible, but it significantly increases the chances that sliding out on gravel will mean you need to just brush yourself off rather than having to buy a new pair of shorts. That second layer on the side panel also makes for convenient side pockets, with a flap over the top to prevent the contents from falling out.
+     
+    For added convenience while riding on or off-road, you have two mesh pockets on the lower back that compress gear next to your body to keep it from bouncing around, This short adds durability and storage without compromising comfort for unlimited amounts of fun.`,
+  },
+  {
+    id: 4,
+    type: "Funkier F-Pro Gel 12 Panel Cycling Shorts",
+    img: "./video-and-img/shorts4.jpg",
+    price: 90,
+    descTitle: "Funkier F-Pro Gel 12 Panel Cycling Shorts",
+    desc: `KISS Air² seat pad for all-day comfort
+    Affinity Pro Lycra® fabric on inside of leg for outstanding stretch and rebound
+    Vortex BLC textured fabric on legs for better aerodynamics
+    GIRO4 leg gripper with raw edge for comfort and silicone stripes for grip
+    Flat-lock stitchingReflective detailing on back
+    Mesh straps for comfort and breathability
+    Weight: 172g`,
+  },
+  {
+    id: 5,
+    type: "Funkier Adventure MTB Baggy Cycling Shorts",
+    img: "./video-and-img/shorts5.jpg",
+    price: 44.5,
+    descTitle: "Funkier Adventure MTB Baggy Cycling Shorts",
+    desc: `Short leg bib shorts with top of the line butt-patch for rides lasting up to 8 hours. The properties of the Carbon Activewear® weave combined with the comfort of an anatomic seamless product without seams on the sides and back generate a one of a kind bib short. Like not wearing it at all: the garment hugs the body perfectly without pressure points. Owing to the excellent breathability and thermoregulation qualities, the skin will always stay fresh and dry to enjoy ultimate comfort in all conditions`,
+  },
+  {
+    id: 6,
+    type: "Troy Lee Design Flowline Shell MTB Shorts - 2020",
+    img: "./video-and-img/shorts6.jpg",
+    price: 42.95,
+    descTitle: "Troy Lee Design Flowline Shell MTB Shorts - 2020",
+    desc: `Anatomic bibshorts in lycra fabric with front printable braces and polypropylene mesh fabric on back
+    End of legs with printed silicon band
+    Flat seams
+    Polypropylene mesh on the back for maximum perspiration
+    Soft elastic for braces
+    Ikon Pad
+    Weight: 170g`,
+  },
+  {
+    id: 7,
+    type: "Troy Lee Design Flowline MTB Shorts With Liner - 2020",
+    img: "./video-and-img/shorts7.jpg",
+    price: 76,
+    descTitle: "Troy Lee Design Flowline MTB Shorts With Liner - 2020",
+    desc: `KISS Air² seat pad for all-day comfort
+    Pro Dry matte Lycra® for good compression and moisture management
+    8-panel construction for perfect fit
+    Rear reflective panels on lower leg
+    Giro³ engineered flat leg band
+    Mesh bib straps for comfort and breathability
+    Weight: 175g`,
+  },
+  {
+    id: 8,
+    type: "Castelli Free Tri Shorts - SS20",
+    img: "./video-and-img/shorts8.jpg",
+    price: 41,
+    descTitle: "Castelli Free Tri Shorts - SS20",
+    desc: `The properties of the Carbon Activewear® weave combined with the comfort of an anatomic seamless product without seams on the sides and back generate a one of a kind bib tight. Like not wearing it at all: the garment hugs the body perfectly without pressure points. Owing to the excellent breathability and thermoregulation qualities, the skin will always stay fresh and dry to enjoy ultimate comfort in all conditions. Sporty and fashionable Stripes design.`,
+  },
+  {
+    id: 9,
+    type: "Funkier Apex-Gel Active 17 Panel Gel Bib Shorts",
+    img: "./video-and-img/shorts9.jpg",
+    price: 49.5,
+    descTitle: "Funkier Apex-Gel Active 17 Panel Gel Bib Shorts",
+    desc: `Designed to keep everything in place without compressing, the Apex Pro bib fits just right, offering support without constricting; making it comfortable for all body types. Its soft stretch silicone leg gripper gives a clean edge finish and keeps the leg in place, while the redesigned pad is perforated with gel solution, multi-level thickness foam, and four way stretch fabric for high impact absorption, flexibility and reduced chafing. A supreme choice for the avid cyclist looking for the ultimate combination of comfort, fit and performance. `,
+  },
+  {
+    id: 10,
+    type: "Troy Lee Design Skyline MTB Shorts With Liner - 2020",
+    img: "./video-and-img/shorts10.jpg",
+    price: 26.5,
+    descTitle: "Troy Lee Design Skyline MTB Shorts With Liner - 2020",
+    desc: `Thunderbike Power High-Tech Fabric
+    Comfort Fit
+    Cool-Max Pad
+    Pefect 2-3 hour summer shorts`,
+  },
+  {
+    id: 11,
+    type: "Castelli Velocissima 2 Women's Shorts - SS20",
+    img: "./video-and-img/shorts11.jpg",
+    price: 44.99,
+    descTitle: "Castelli Velocissima 2 Women's Shorts - SS20",
+    desc: `80% polyamide, 20% spandex
+    Weight: 210g
+    Lycra fabric technology`,
+  },
+  {
+    id: 12,
+    type: "Castelli Prima Women's Shorts - SS20",
+    img: "./video-and-img/shorts12.jpg",
+    price: 100,
+    descTitle: "Castelli Prima Women's Shorts - SS20",
+    desc: `The Castelli Endurance 2 bib shorts feature a classic cut with premium fabrics and seat pad.`,
+  },
+];
