@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { ProductConsumer } from "../../../Context";
+import ProductItem from "../../ProductItem/ProductItem";
 
 class BibShorts extends React.Component {
   constructor(props) {
@@ -20,33 +21,13 @@ class BibShorts extends React.Component {
                 return bibShorts.map((item) => {
                   const { type, img, price, desc, id } = item;
                   return (
-                    <div key={id} className="col-sm-6 col-lg-4">
-                      <CategoryPageItem className="item border rounded my-3 p-3 container">
-                        <ImgWrapper className="row ">
-                          <Img src={img} alt="" className="col-12" />
-                        </ImgWrapper>
-                        <Bottom className="row text-light py-2">
-                          <p className="col-12  text-center p-0 ">{type}</p>
-                          <h2 className="col-12  text-center p-0">${price}</h2>
-                        </Bottom>
-                        <Add className="add d-flex flex-column justify-content-center align-items-center">
-                          <Text className="text-capitalize font-weight-bold">
-                            good choice
-                          </Text>
-                          <IconWrapper className="position-relative">
-                            <i
-                              className="shop-icon display-4 fa fa-cart-arrow-down text-success"
-                              aria-hidden="true"
-                            ></i>
-                          </IconWrapper>
-                          <Button className="px-3 py-2 border rounded text-light d-flex justify-content-center align-items-center">
-                            <p className="my-0 mr-2 text-capitalize font-weight-bold">
-                              add to cart
-                            </p>
-                          </Button>
-                        </Add>
-                      </CategoryPageItem>
-                    </div>
+                    <ProductItem
+                      type={type}
+                      img={img}
+                      price={price}
+                      desc={desc}
+                      id={id}
+                    />
                   );
                 });
               }}
