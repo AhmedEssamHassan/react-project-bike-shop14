@@ -22,6 +22,7 @@ class ShortSleeved extends React.Component {
                   const { type, img, price, desc, id } = item;
                   return (
                     <ProductItem
+                      key={id}
                       type={type}
                       img={img}
                       price={price}

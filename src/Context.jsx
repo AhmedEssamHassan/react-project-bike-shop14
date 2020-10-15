@@ -36,8 +36,15 @@ export class ProductProvider extends React.Component {
     longSleeved: [],
     bibShorts: [],
     shorts: [],
+    detailsId: 0,
   };
 
+  setDetailId = (id) => {
+    this.setState({ detailsId: id });
+  };
+
+  /* ////////////////////////////////////////// */
+  /* for rendering components */
   componentDidMount() {
     this.setCategories();
     this.setAddresses();
@@ -57,6 +64,7 @@ export class ProductProvider extends React.Component {
     this.setShortsComponents();
   }
 
+  /* for setting the data into the state */
   setCategories = () => {
     let categories = [];
     catigoriesTitles.map((catg) => {
@@ -130,7 +138,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ mirrors });
   };
-
   setLights = () => {
     let lights = [];
     lightsComponent.map((item) => {
@@ -139,7 +146,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ lights });
   };
-
   setProducts = () => {
     let gearHangers = [];
     gearHangerComponent.map((item) => {
@@ -148,7 +154,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ gearHangers });
   };
-
   setClothesComponent = () => {
     let clothes = [];
     clothesComponent.map((item) => {
@@ -157,7 +162,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ clothes });
   };
-
   setShortSleevedComponent = () => {
     let shortSleeved = [];
     shortSleevedComponent.map((item) => {
@@ -166,7 +170,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ shortSleeved });
   };
-
   setLongSleevedComponent = () => {
     let longSleeved = [];
     longSleevedComponent.map((item) => {
@@ -183,7 +186,6 @@ export class ProductProvider extends React.Component {
     });
     this.setState({ bibShorts });
   };
-
   setShortsComponents = () => {
     let shorts = [];
     shortsComponents.map((item) => {
@@ -193,9 +195,12 @@ export class ProductProvider extends React.Component {
     this.setState({ shorts });
   };
 
+  /* ///////////////////////////////////////////// */
   render() {
     return (
-      <ProductContext.Provider value={{ ...this.state }}>
+      <ProductContext.Provider
+        value={{ ...this.state, setDetailId: this.setDetailId }}
+      >
         {this.props.children}
       </ProductContext.Provider>
     );

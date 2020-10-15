@@ -35,6 +35,8 @@ import Warmers from "./components/Clothes/Warmers/Warmers";
 import ShortSleeved from "./components/Clothes/ShortSleeved/ShortSleeved";
 import Socks from "./components/Clothes/Socks/Socks";
 import ThreeQuarters from "./components/Clothes/ThreeQuarters/ThreeQuarters";
+import Details from "./components/Details/Details";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   return (
@@ -71,6 +73,8 @@ function App() {
         <Route path="/Socks" component={Socks} />
         <Route path="/Warmers" component={Warmers} />
         <Route path="/ThreeQuarters" component={ThreeQuarters} />
+        <Route path="/details" component={Details} />
+        <Route path="/cart" component={Cart} />
       </Switch>
       <ContactUs />
       <Footer />
