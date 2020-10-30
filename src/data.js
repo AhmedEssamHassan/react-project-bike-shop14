@@ -111,115 +111,48 @@ export const addressesTitle = [
 export const adultsComponent = [
   {
     id: uuidv4(),
-    type: "race bike",
-    img: "./video-and-img/adults-Race.jpg",
+    type: "Sensa Livigno Evo Tour Mountain Bike - 2020",
+    img: "./video-and-img/adults-bike1.jpg",
     price: 2349.0,
-    desc: `Lightweight, no fuss, stripped down. These bikes are designed to go fast so expect a 
-    low front end for an aerodynamic position (shorter head tube, flat stem, low handlebars)
-    Emphasis on speed than comfort. Expect a stiffer frame and super responsive handling.
-    Gearing tends to be higher for more speed. Wheels are either skinny lightweight models or
-     carbon aero versions.
-    Finishing kit is all about efficiency as well so tends to be lighter with a nod to aero
-     benefits to save rider energy as well as overall bike weight.
-    Buy  a race bike if you want light weight, no loss of power, a lively ride and you want 
-    to go fast all the time.`,
-    goodFor: "going fast, racing, speed thrills.",
-    notGoodFor: "touring, long rides in steep terrain, inflexible bodies.",
+    desc: `The Sensa Livigno Evo Tour is one of Sensa's 29er hardtail range. The alloy frame is designed specially for  cross country riding and with the help of the 100mm of suspension travel this bike will cover the roughest of trails with ease. 
+
+    `,
   },
   {
     id: uuidv4(),
-    type: "Gravel bike",
-    img: "./video-and-img/adults-gravel.jpg",
+    type: "Wilier 503X Comp NX Alloy Mountain Bike",
+    img: "./video-and-img/adults-bike2.jpg",
     price: 1599.0,
-    desc: `One for the more recent developments in road bike genres is gravel bikes. Gravel bikes
-     can tackle off road terrain such as tracks and trails whilst still retaining the ability to
-      cover long rides relatively quickly. On first sight a gravel bike looks similar to a cyclocross 
-      bike, however the geometry of a gravel bike is more designed for comfort, rather than the more
-       aggresive geometry of a cyclocross bike.
-    Gravel bikes combine the some of the comfort aspects of a sportive bike with some of the off road
-     capabilities of a cyclo cross bike. The result is a bike which is comfy enough to be ridden all day
-      and tackle all but the most extreme terrain, where mountain bikes still rule.
-    Most gravel bikes feature disc brakes and a strong well built frame which can handle the additional 
-    knocks and challenges these bikes are designed for. Larger clearances at the fork and rear stays allow
-     for wider, more knobblier tyres and the debris which they can collect.
-    Entry – Mid range gravel bikes tend to feature an aluminium frame combined with a carbon fibre front
-     fork. Higher specced gravel bikes feature a carbon fibre frame and fork. Regardless of their construction
-      material, gravel frames tend to be built more solidly than regular road bike frames.
-    The drawback to all this extra in-built flexibility is a slight reduction in speed, however this 
-    can be marginal and a price worth paying for a ‘go anywhere bike’.`,
-    goodFor: "Venturing off road, general riding.",
-    notGoodFor: " High end road performance / Speed.",
+    desc: `The 503X is an aluminium hardtail that's a complete redesign of Wilier's flagship model. Tried and tested on the trails in the Dolomites. Featuring lightweight aluminium frame, SR Suntour forks and Sram NX Eagle 1 x 12 speed drivetrain this 29er punches above its price-point.`,
   },
   {
     id: uuidv4(),
-    type: "Sportive / Endurance bike",
-    img: "./video-and-img/adults-Sportive .jpg",
+    type: "Kona Hei Hei Trail Deluxe Carbon Full Suspension Mountain Bike",
+    img: "./video-and-img/adults-bike3.jpg",
     price: 3559.0,
-    desc: `Sportives are long-distance mass participation cycling challenge events where the emphasis is
-     on endurance rather than speed.
-    Sportive / Endurance bikes offer a lot of the lightweight benefits of a traditional race bike but 
-    with one crucial point in mind – comfort.
-    The riding position is more upright offering greater all-day comfort at the expense of aerodynamic 
-    efficiency.
-    The geometry of the frame is also tweaked to offer comfort and more stable/steadier handling over
-     longer distances.
-    The material make-up of Sportive bikes tends to be different from pure race models. The tubes are
-     designed to ‘give’ a little bit. Less stiff, more comfy.
-    Gearing is lower to help cope with big hills without the need for speed. Wheels are still lightweight
-     but more robust and with little in terms of aerodynamic properties.
-    Disc brakes and larger clearances (for wider tyrers )are also becoming more popular in this type of 
-    bike.
-    Finishing kit is more about comfort but again still light enough to not affect overall weight.
-    In short, a sportive / endurance bike is a more comfortable race bike. Consider one if head down all out 
-    speed and super light weight isn’t a priority but comfort on longer rides is.`,
-    goodFor: "long distances / hilly terrain.",
-    notGoodFor: "racing or short blast adrenaline rides.",
+    desc: `An unrelenting pursuit to push the limits of what Kona bikes can do and where they can go resulted in the all-new, all-carbon Hei Hei Trail Deluxe. Kona wanted to squeeze every last drop of speed and suspension travel they could out of the Fuse Independent Suspension design, so by tweaking the geometry, slapped in 27.5" wheels and upped the travel to 140mm of trail-gobbling travel, Kona wrenched every last drop out of the Hei Hei Trail just so you could do the same.
+    `,
   },
   {
     id: uuidv4(),
-    type: "Aero bike",
-    img: "./video-and-img/adults-Aero.jpg",
+    type: "Oyama Spartan 3.7 Mountain Bike",
+    img: "./video-and-img/adults-bike4.jpg",
     price: 2425.0,
-    desc: `Aero road bikes take many of the aerodynamic features of a time trial (TT) bike and put them into
-     a more of a regular road race frame.
-    This does tend to add a bit of weight compared to a race frame but the aero advantages can help save time
-     on certain courses.
-    Most of these types of frame are carbon with the same geometry and material lay up as a race frame so expect
-     a low and fast position. Cables tend to be hidden out of the air – running internally through the inside of the frame.
-    These bikes are ideal on longer flatter courses. Coupled with a set of deep section wheels they can offer
-     impressive time savings.
-    The gearing is similar to race bikes ie. high for more speed and finishing kit is lightweight also.
-    Buy if you want an aerodynamically focussed race bike.`,
-    goodFor: "slicing through wind drag at mid- to high-end speeds.",
-    notGoodFor: "slower, relaxed rides.",
+    desc: `The Oyama Spartan is a lightweight alloy hardtail. The alloy frame is designed specially for cross country style riding and with the help of the 100mm air suspension this bike will cover the roughest of trails with ease. `,
   },
   {
     id: uuidv4(),
-    type: "Commuter bike",
-    img: "./video-and-img/adults-Commuter.jpg",
+    type: "Sensa Livigno Evo Sport Mountain Bike - 2020",
+    img: "./video-and-img/adults-bike5.jpg",
     price: 1199.95,
-    desc: `The real workhorses of the bike world. Built with comfort and durability in mind as they will take a bashing day after day in all weathers.
-    Weight isn’t such an issue. Frame geometry offers a more upright position for greater comfort and in-traffic vision.
-    Frames have fittings for proper mudguards and racks to keep you dry and so you don’t have to carry any weight on your back.
-    Wheels are all about strength and longevity and coupled with sturdy tyres offer greater impact protection and increased comfort; just don’t expect supple handling or low weight.
-    Disc brakes are also popular as they offer hassle free stopping and the lack of rim brakes rub means slight wheel buckles are less of a problem.
-    Bars can be either drop or flat depending on your preference.`,
-    goodFor: "day-in day-out reliability and comfort.",
-    notGoodFor: "bike-handling thrills and flat-out speed.",
+    desc: `The Sensa Livigno Evo Tour is one of Sensa's 29er hardtail range. The alloy frame is designed specially for  cross country riding and with the help of the 100mm of suspension travel this bike will cover the roughest of trails with ease. `,
   },
   {
     id: uuidv4(),
-    type: "touring bike",
-    img: "./video-and-img/adults-touring.jpg",
-    price: 999.95,
-    desc: `Touring bikes are built for comfort over long distances carrying heavy loads (such as clothing or camping stuff)
-    “Overbuilt” is a good description as the frame and components are built to last. Despite the weight they are very comfortable.
-    At first the gearing may seem unbelievably low when unladen but get some panniers on there and you’ll appreciate it.
-    The frame geometry is long and relatively upright for greater comfort and easier handling, again crucial when out on long rides with a heavy load.
-    Wheels are super tough, with more spokes than other road bikes. The rims are bombproof to cope with the loads and surfaces.
-    Disc brakes are becoming more and more popular as they offer better braking in all conditions especially when carrying heavy loads.
-    Components are strong and long lasting with more emphasis on comfort due to long periods riding.
-    If you are planning on carrying any kind of load in your pannier a long distance and heading off for a few days, get a touring bike.`,
+    type: "Kona Hei Hei Trail Carbon Full Suspension Mountain Bike",
+    img: "./video-and-img/adults-bike6.jpg",
+    price:  999.95,
+    desc: `The all carbon Hei Hei Trail means business, and it steps outside the boundaries, showing just how far it can go. An all-new optimized and aggressive geometry based around 27.5" wheels allowed us to up the travel while taking full advantage of our proven Fuse Independent Suspension design. The end result is a Hei Hei begging for higher speeds and steeper pitches—all in the name of fun.`,
     goodFor: " touring, funnily enough!",
     notGoodFor: "racing or any speed-work.",
   },

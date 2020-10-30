@@ -3,8 +3,6 @@ import styled from "styled-components";
 import { ProductConsumer } from "../../Context";
 
 class Details extends React.Component {
-  state = {};
-
   render() {
     return (
       <DetailsContainer className="container-fluid py-5 ">
@@ -70,7 +68,7 @@ class Details extends React.Component {
                   {(val) => {
                     const { detailsType } = val;
                     return (
-                      <h3 className="border-bottom text-capitalize px-2 pb-2 mb-2">
+                      <h3 className="border-bottom text-center text-capitalize px-2 pb-2 mb-2">
                         {detailsType}
                       </h3>
                     );
